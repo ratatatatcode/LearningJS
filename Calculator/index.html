@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="content-wrapper">
+            <div class="text-container">
+                <input type="text" class="displayProblem" id="displayProblem">
+                <input type="hidden" class="problem" id="problem" readonly="readonly">
+                <h3 class="answer" id="answer">0</h3>
+            </div>
+            <div class="row-1">
+                <button>.</button>
+                <button>.</button>
+                <button id="delete">Del</button>
+                <button id="deleteAll">AC</button>
+            </div>
+            <div class="row-2">
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+                <button id="multiply">X</button>
+            </div>
+            
+            <div class="row-3">
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+                <button id="subtract">-</button>
+            </div>
+
+            <div class="row-4">
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+                <button id="add">+</button>
+            </div>
+
+            <div class="row-5">
+                <button id="divide">/</button>
+                <button id="zero">0</button>
+                <button id="point">.</button>
+                <button id="equal">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
