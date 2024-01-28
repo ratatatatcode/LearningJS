@@ -109,5 +109,3 @@
 // Using backticks (``) and ${variableName} will allow you to place variable inside a string.
 // const example = `My first name is ${firstName}. ` + `My second name is secondName.`;
 // console.log(example);
-
-// 1:08:36
