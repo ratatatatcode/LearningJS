@@ -121,3 +121,8 @@ console.log(carLot[2].year) */
 }
 
 printHelloWorld(); */
+
+// Conditional (Ternary Operator)
+/* let age = 21;
+let name = age > 10 ? "James" : "Not James";
+console.log(name); */
