@@ -1,5 +1,5 @@
 // Learning Javascript with Node.JS
-// by Bob Tober
+// by Bob Tober (ft. PedroTech)
 
 // To run: node <filename/filename.js> + enter
 // Shortcut: Ctrl + ~ (Opening terminal), Arrow Up Key to render last input in terminal
@@ -15,7 +15,7 @@
 // . <- Dot Operator, (Property) Access Operator
 
 // ==========================================================================================
-// Arguments & Parameter
+// Arguments & Parameter (not sure with the positions of args and params)
 // function parameterArgument(params) {
 //     console.log(params);
 // }
@@ -30,80 +30,94 @@
 // var myFunction = function() {
 //     console.log("Me too!");
 // }
+
 // ------------------------------------------------------------------------------------------
-// function one() {
-//     return "One";
-// }
+/* function one() {
+    return "One";
+}
 
-// let value = one;
-// console.log(typeof value); // function
-// console.log(typeof one); // function
+let value = one;
+console.log(typeof value); // function
+console.log(typeof one); // function
 
-// console.log(value());
+console.log(value()); */
+
 // ------------------------------------------------------------------------------------------
-// function two() {
-//     return function () {
-//         console.log("Two");
-//     }
-// }
+/* function two() {
+    return function () {
+        console.log("Two");
+    }
+}
 
-// let myFunction = two();
-// myFunction();
+let myFunction = two();
+myFunction(); */
+
 // ------------------------------------------------------------------------------------------
-// function three() {
-//     return function() {
-//         return "Three";
-//     }
-// }
+/* function three() {
+    return function() {
+        return "Three";
+    }
+}
 
-// console.log(three()); // This will return [Function (anonymous)]
-// console.log(three()());
+console.log(three()); // This will return [Function (anonymous)]
+console.log(three()()); */
 
 // ==========================================================================================
-// Object Literals
+/* Object Literals
 
-// let car = {
-//     make: "BMW",
-//     model: "7511",
-//     year: 2010,
-//     getPrice: function(quantity) {
-//         return 5000 * quantity;
-//     },
-//     printDescription: function() {
-//         console.log(this.make + ' ' + this.model);
-//     }
-// };
+let car = {
+    make: "BMW",
+    model: "7511",
+    year: 2010,
+    getPrice: function(quantity) {
+        return 5000 * quantity;
+    },
+    printDescription: function() {
+        console.log(this.make + ' ' + this.model);
+    }
+};
 
-// car.printDescription();
-// // console.log(car.getPrice(3));
-// console.log(car.year);
+car.printDescription();
+// console.log(car.getPrice(3));
+console.log(car.year);
 
-// car['year'] = 2020;
-// console.log(car['year']); // Replace 2010 by 2020
-// console.log(car[1]); // undefined
-// ------------------------------------------------------------------------------------------
-// var anotherCar = {};
-// anotherCar.whatever = "Bob";
-// console.log(anotherCar.whatever);
-// ------------------------------------------------------------------------------------------
-// var a = {
-//     myProperty: {b: "Hi"}
-// };
-// console.log(a.myProperty.b);
-// ------------------------------------------------------------------------------------------
-// var c = {
-//     myProperty: [
-//         {d: "this"},
-//         {e: "can"},
-//         {f: "get"},
-//         {g: "crazy"}
-//     ]
-// };
-// console.log(c.myProperty[1]);
-// ------------------------------------------------------------------------------------------
-// let carLot = [
-//     {year: 2017, make: "Toyota", model: "4Runner"},
-//     {year: 2015, make: "BMW", model: "5281"},
-//     {year: 1982, make: "Buick", model: "Skylark"}
-// ];
-// console.log(carLot[2].year)
+car['year'] = 2020;
+console.log(car['year']); // Replace 2010 by 2020
+console.log(car[1]); // undefined
+
+------------------------------------------------------------------------------------------
+var anotherCar = {};
+anotherCar.whatever = "Bob";
+console.log(anotherCar.whatever);
+
+------------------------------------------------------------------------------------------
+var a = {
+    myProperty: {b: "Hi"}
+};
+console.log(a.myProperty.b);
+
+------------------------------------------------------------------------------------------
+var c = {
+    myProperty: [
+        {d: "this"},
+        {e: "can"},
+        {f: "get"},
+        {g: "crazy"}
+    ]
+};
+console.log(c.myProperty[1]);
+
+------------------------------------------------------------------------------------------
+let carLot = [
+    {year: 2017, make: "Toyota", model: "4Runner"},
+    {year: 2015, make: "BMW", model: "5281"},
+    {year: 1982, make: "Buick", model: "Skylark"}
+];
+console.log(carLot[2].year) */
+
+// Arrow Function
+/* const printHelloWorld = () => {
+    console.log("Hello World");
+}
+
+printHelloWorld(); */
