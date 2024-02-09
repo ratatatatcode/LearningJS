@@ -20,4 +20,3 @@ const bubbleSort = function(arr) {
 
 let arr = [5,3,1,7,8,6]
 bubbleSort(arr);
-
