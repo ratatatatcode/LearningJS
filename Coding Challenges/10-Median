@@ -33,6 +33,21 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 console.log(findMedianSortedArrays([1], [2]));
 
+/* In this problem, this approach can sometimes outperform merge sort.
+var findMedianSortedArrays = function(nums1, nums2) {
+    let joined = nums1.concat(nums2);
+    joined.sort((a, b) => a - b);
+    let mid = Math.floor(joined.length/2);
+    if(joined.length % 2 == 1) {
+        return joined[mid];
+    } else {
+        return (joined[mid] + joined[mid - 1])/2;
+    }
+};
+
+console.log(findMedianSortedArrays([1], [2]));
+*/
+
 /* QuickSort for GPT
 const quickSort = function(arr) {
     if (arr.length <= 1) {
