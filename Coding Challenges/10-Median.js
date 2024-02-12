@@ -3,7 +3,7 @@
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
- * @return {number}
+ * @return {number}~
  */
 
 const bubbleSort = function(arr) { // QuickSort is better for larger data
