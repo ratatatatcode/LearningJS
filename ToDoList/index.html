@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main-container">  
+        <div class="list" id="list">
+            <h3>TO DO LIST</h3>
+            <div class="buttons">
+                <button onclick="add()">+</button>
+                <button onclick="clear()">x</button>
+            </div>
+
+            <!-- maxlength - maximum number of characters allowed in the <input> element -->
+            <input maxlength="60" type="text" class="todo" id="textpart">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Need to fix the ui -->
